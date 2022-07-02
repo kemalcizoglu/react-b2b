@@ -1,0 +1,76 @@
+.user-list {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.user-list ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-list ul li {
+  padding: 10px;
+  background-color: #dddd;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+.user-list ul li button{
+    border:none;
+    background-color: none;
+    background: none;
+}
+.user-list ul li .user-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-list ul li .user-details img {
+  margin-right: 15px;
+  border-radius: 10px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.user-list ul li .user-details .user-info {
+  display: flex;
+  flex-direction: column;
+}
+.user-list ul li .user-details .user-info h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.user-list ul li .user-details .user-info p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.loadingx {
+    pointer-events: all;
+    z-index: 99999;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: wait;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:#fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
